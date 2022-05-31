@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles/index.css">
+	<link rel="stylesheet" href="styles/package.css">
+	<link rel="stylesheet" href="styles/tips.css">
+	<link rel="stylesheet" href="styles/payment.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+	<header class="header">
+		<img src="images/cleaning_logo.png" alt="company_logo">
+		<h1>&nbsp&nbsp&nbspCleaner Brothers Kajang</h1>
+		<div class="nav">
+			<a href="https://imransyafiq.github.io/Cleaning-Brothers-Kajang/"><button class="nav-button">Home</button></a>
+			<a href="https://imransyafiq.github.io/Cleaning-Brothers-Kajang/package.html"><button class="nav-button">Package</button></a>
+			<a href="https://imransyafiq.github.io/Cleaning-Brothers-Kajang/schedule.html"><button class="nav-button">Schedule</button></a>
+			<a href="https://imransyafiq.github.io/Cleaning-Brothers-Kajang/tips.html"><button class="nav-button">Tips & Tricks</button></a>
+			<a href="https://imransyafiq.github.io/Cleaning-Brothers-Kajang/aboutUs.html"><button class="nav-button">About Us</button></a>
+		</div>
+	</header>
+	<br><br><br><br><br>
+	<img class="banner" src="images/clean@jeshoots.jpg" >
+	
+	
+	<h2>Payment</h2>
+	
+	<form action="confirmPayment.html" method="post">
+	
+	<table bgcolor="#D3D3D3" align="center" width="80%" border=0 style="font-size:18px;margin-left:240px;margin-right:120px;border-radius:15px 50px">
+		<tr height="120px">
+			<td colspan="4"><h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSpecification for Services</h3></td>
+		</tr>
+	
+		<tr height="80px">
+			
+			<td width="240px">&nbsp&nbsp&nbsp Date of Cleaning:</td>
+			<td><input type="date" name="_date" min="2022-04-01" max="2022-05-31" style="font-size:18px"></td>
+			
+			<td width="160px">Address Area:</td>
+			<td><textarea name="_addrArea" style="font-size:18px;" placeholder="Lot 1234, Taman Arnab, 24000, Kajang, Selangor"></textarea></td>
+		
+		</tr>
+		
+		<tr height="120px">
+			<td colspan="4"><h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPayment Method</h3></td>
+			
+		</tr>
+		
+		<tr height="80px">
+			<td>&nbsp&nbsp&nbspPayment Method:</td>
+			<td colspan="3">
+				<select name="_paymentMethod" style="font-size:18px">
+					<option value="Visa">Visa</option>
+					<option value="Paypal">Paypal</option>
+				</select>
+			</td>
+		</tr>
+		
+		<tr height="80px">
+			<td>&nbsp&nbsp&nbspCard Number:</td>
+			<td><input type="text" name="_cardNumber" maxlength="20" placeholder="1234 5678 9456 7123" style="font-size:18px"></td>
+			
+			<td>Expiration Date & <br>Security Code:</td>
+			<td><input type="number" min="1" max="12" value="1" size="1" name="_expDateM" style="font-size:20px">
+			<input type="number" min="2022" max="2030" value="2022" size="3" name="_expDateY" style="font-size:20px">
+			<input type="text" maxlength="3" placeholder="999" size="3" name="_securityCode" style="font-size:20px"></td>
+		</tr>
+		
+		<tr height="120px">
+			<td colspan="4"><h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBilling Information</h3></td>
+		</tr>
+		
+		<tr height="80px">
+			<td>&nbsp&nbsp&nbspFirst name:</td>
+			<td><input type="text" name="_fname" placeholder="Abu" style="font-size:18px"></td>
+			<td>Last name:</td>
+			<td><input type="text" name="_lname" placeholder="Ali" style="font-size:18px"></td>
+		</tr>
+		
+		<tr height="80px">
+			<td>&nbsp&nbsp&nbspBilling Address:</td>
+			<td><input type="text" name="_billingAddressUser1" placeholder="Lot 1234" style="font-size:18px"></td>
+			<td>Billing Address, Line 2:</td>
+			<td><input type="text" name="_billingAddressUser2" placeholder="Taman Arnab" style="font-size:18px"></td>
+		</tr>
+		
+		<tr height="80px">
+			<td>&nbsp&nbsp&nbspCity: </td>
+			<td><input type="text" name="_cityUser" placeholder="Kajang" style="font-size:18px"></td>
+			<td>Zip/Postal Code:</td>
+			<td><input type="text" name="_postalCode" maxlength="5" placeholder="24000" style="font-size:18px"></td>
+			
+		</tr>
+		
+		<tr height="80px">
+			<td>&nbsp&nbsp&nbspCountry: </td>
+			<td>
+				<select name="_countryNation" style="font-size:18px;">
+					<option value="_nationMalaysia">Malaysia</option>
+					<option value="_nationMalaysia">Thailand</option>
+					<option value="_nationMalaysia">United States of America</option>
+				</select>
+			</td>
+			<td>Phone number:</td>
+			<td>
+				<select name="_phoneNumberNation" style="font-size:18px;">
+					<option value="+60">+60</option>
+					<option value="+66">+66</option>
+					<option value="+1">+1</option>
+				</select>
+				<input type="text" maxlength="15" name="_phoneNumberUser" placeholder="012 345 6789" style="font-size:18px">
+			</td>
+		</tr>
+	</table>
+	<br><br>
+	<center>
+		<input class="button-form" type="submit" value="Submit">
+		<input class="button-form" type="reset" value="Reset">
+	</center>
+	
+	</form>
+	
+	<br><br><br><br><br>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<table class="footer-col" border="0">
+					<tr>
+						<td width="33%"><h4>Follow Us:</h4></td>
+						<td width="33%"><h4>Our Headquarters:</h4></td>
+						<td width="33%"><h4>Our Contacts:</h4></td>
+					</tr>
+					<tr>
+						<td>
+							<div class="social-links" >
+								<a href="https://www.facebook.com"><i class="fab fa-facebook-f fa-2x"></i></a>
+								<a href="https://twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+								<a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+								<a href="https://www.youtube.com"><i class="fab fa-youtube fa-2x"></i></a>
+							</div>
+						</td>
+						<td>
+							<div class="hqAddress">
+							<p>Jalan Ilmiah,<br>
+							Taman Universiti,<br>
+							43000 Bangi,<br>
+							Selangor</p>
+							</div>
+						</td>
+						<td>
+							<ul>
+								<li>No Tel.: 012-345 6789</li>
+								<li>Fax No.: 09-876 5432</li>
+								<li>Email: cleanservicekajang@gmail.com</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
