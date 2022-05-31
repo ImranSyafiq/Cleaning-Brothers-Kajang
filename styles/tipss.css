@@ -1,0 +1,40 @@
+.image-one img{
+	margin-left:120px;
+	position:absolute;
+	border-radius:10%;
+	border:5px solid;
+}
+
+.image-two img{
+	margin-left:1370px;
+	margin-top:60px;
+	border-radius:10%;
+	border:5px solid;
+}
+
+.image-three img{
+	margin-left:120px;
+	margin-top:60px;
+	position:absolute;
+	border-radius:10%;
+	border:5px solid;
+}
+
+.tip-one h3,.tip-one p{
+	margin-top:60px;
+	margin-left:500px;
+	margin-right:80px;
+}
+
+.tip-two{
+	margin-top:60px;
+	margin-left:80px;
+	margin-right:500px;
+	position:absolute;
+}
+
+.about-us{
+	margin-top:60px;
+	margin-left:650px;
+	margin-right:80px;
+}
